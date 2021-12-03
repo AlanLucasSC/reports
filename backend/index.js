@@ -1,0 +1,20 @@
+const express = require('express')
+const compression = require('compression')
+const cors = require('cors')
+const consign = require('consign')
+const app = express()
+
+app.use(compression())
+app.use(cors())
+app.use(express.json())
+app.use(express.urlencoded({ extended: true}))
+
+consign({cwd: 'src'})
+  .include('utils')
+  .then('shared')
+  .then('controllers')
+  .then('middlewares')
+  .then('routes')
+  .into(app)
+
+app.listen(3000)

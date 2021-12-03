@@ -1,0 +1,105 @@
+{
+  "dashboard": {
+    "completedTasks": "Tarefas Completas",
+    "dailySales": "Vendas do dia",
+    "performance": "Performance",
+    "simpleTable": "Tabela Simples",
+    "totalShipments": "Total de Remessas",
+    "chartCategories": [
+      "Contas",
+      "Compras",
+      "Sessões"
+    ],
+    "tasks": "Tarefas({count})",
+    "today": "Hoje",
+    "dropdown": {
+      "action": "Ação",
+      "anotherAction": "Outra Ação",
+      "somethingElse": "Algo mais"
+    },
+    "usersTable": {
+      "title": "Tabela Simples",
+      "columns": [
+        "Nome",
+        "País",
+        "Cidade",
+        "Salário"
+      ],
+      "data": [
+        {
+          "id": 1,
+          "name": "Dakota Rice",
+          "salary": "R$36.738",
+          "country": "Niger",
+          "city": "Oud-Turnhout"
+        },
+        {
+          "id": 2,
+          "name": "Minerva Hooper",
+          "salary": "R$23,789",
+          "country": "Curaçao",
+          "city": "Sinaai-Waas"
+        },
+        {
+          "id": 3,
+          "name": "Sage Rodriguez",
+          "salary": "R$56,142",
+          "country": "Netherlands",
+          "city": "Baileux"
+        },
+        {
+          "id": 4,
+          "name": "Philip Chaney",
+          "salary": "R$38,735",
+          "country": "Korea, South",
+          "city": "Overland Park"
+        },
+        {
+          "id": 5,
+          "name": "Doris Greene",
+          "salary": "R$63,542",
+          "country": "Malawi",
+          "city": "Feldkirchen in Kärnten"
+        },
+        {
+          "id": 6,
+          "name": "Mason Porter",
+          "salary": "R$98,615",
+          "country": "Chile",
+          "city": "Gloucester"
+        },
+        {
+          "id": 7,
+          "name": "Jon Porter",
+          "salary": "R$78,615",
+          "country": "Portugal",
+          "city": "Gloucester"
+        }
+      ]
+    },
+    "taskList": [
+      {
+        "title": "Atualizar a documentação",
+        "description": "Descrição",
+        "done": false
+      },
+      {
+        "title": "Titulo",
+        "description": "Descrição",
+        "done": true
+      }
+    ]
+  },
+  "sidebar": {
+    "title": "Gerenciamento",
+    "shortTitle": "CT",
+    "dashboard": "dashboard",
+    "icons": "Ícones",
+    "maps": "Mapas",
+    "notifications": "Notificações",
+    "userProfile": "Perfil de Usuário",
+    "tableList": "Lista",
+    "typography": "Tipografia",
+    "rtlSupport": "Suporte"
+  }
+}
